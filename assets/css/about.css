@@ -71,8 +71,9 @@ section {
     overflow: hidden;
 }
 
+/* eaf5ff */
 .section-bg {
-    background-color: #f5f6f7;
+    background-color: #eaf5ff;
 }
 
 .section-header {
@@ -1008,7 +1009,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
     width: 90px;
-    border-radius: 10px;
+    border-radius: 100px;
     border: 6px solid #fff;
     position: absolute;
     left: -45px;
@@ -1191,8 +1192,9 @@ section {
 }
 
 .about .our-story {
+    border-radius: 12px;
     padding: 40px;
-    background-color: #f5f6f7;
+    background-color: #eaf5ff;
 }
 
 @media (min-width: 991px) {
