@@ -754,7 +754,7 @@ section {
     content: "";
     height: 100%;
     width: 100%;
-    background: #f0f1f2;
+    /* background: #f0f1f2; */
     border-radius: 50px;
     z-index: 1;
     /* top: 10px; */
@@ -792,7 +792,7 @@ section {
 
 }
 .services .service-item:hover .icon:before {
-    background: var(--color-primary);
+    /* background: var(--color-primary); */
 }
 
 .services .service-item:hover h3 {
@@ -1157,21 +1157,21 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
     margin-right: 25px;
-    font-size: 28px;
-    width: 56px;
-    height: 56px;
+    font-size: 48px;
+    /* width: 56px !important;
+    height: 56px; */
     border-radius: 4px;
     line-height: 0;
-    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
-    background-color: #fff;
+    /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
+    background-color: #fff; */
     transition: 0.3s;
 }
 
 .alt-services .icon-box:hover i {
-    background-color: var(--color-primary);
-    color: #fff;
+    color: var(--color-primary);
+    /* color: #fff; */
 }
 
 .alt-services .icon-box h4 {
