@@ -73,6 +73,7 @@ section {
     font-weight: 700;
     position: relative;
     color: #2e3135;
+    /* border: 2px solid black; */
 }
 
 /* .section-header h2:before,
