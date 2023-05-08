@@ -48,7 +48,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-family: var(--font-secondary);
 }
 
 /*--------------------------------------------------------------
@@ -265,8 +266,8 @@ section {
 }
 
 .header .logo img {
-    max-height: 40px;
-    margin-right: 6px;
+    max-height: 60px;
+    margin-right: 12px;
 }
 
 .header .logo h1 {
