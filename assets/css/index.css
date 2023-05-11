@@ -14,6 +14,19 @@
     --color-primary: #218cd9;
     --color-secondary: #52565e;
 }
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
 
 /* Smooth scroll behavior */
 
@@ -61,7 +74,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f5f6f7;
+    background-color: #eaf5ff;
 }
 
 .section-header {
@@ -274,6 +287,7 @@ section {
     color: #fff;
     margin-bottom: 0;
     font-family: var(--font-primary);
+    text-align: left;
 }
 
 .header .logo h1 span {
@@ -662,6 +676,137 @@ section {
     }
 }
 
+.ourProcess{
+    margin-top: 40px;
+}
+
+.ourProcess h2{
+font-size: 32px;
+font-weight: 700;
+color: #2e3135;
+/* margin-bottom: 280px; */
+}
+
+.space{
+    height: 40px;
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1:first-of-type {
+    font-weight: var(--weight1);
+    color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+    color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.header {
+    text-align: center;
+    line-height: 0.8;
+    margin-bottom: 50px;
+    /* margin-top: 100px; */
+}
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
+
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px 40px ;
+    margin: 20px;  
+    transition: .4s ease-in-out;
+    box-shadow: 0px 30px 40px -20px rgba(163, 165, 174, 0.4);;
+
+}
+
+.box:hover{
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    scale: 1.05;
+}
+img {
+    float: right;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 240px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 200px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 30%;
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
 /*--------------------------------------------------------------
 # Constructions Section
 --------------------------------------------------------------*/
@@ -677,7 +822,7 @@ section {
 } */
 
 .constructions .card-item {
-    border: 1px solid rgba(82, 86, 94, 0.2);
+    /* border: 1px solid rgba(82, 86, 94, 0.2); */
     background: #fff;
     position: relative;
     /* border-radius: 12px; */
@@ -1208,7 +1353,7 @@ section {
 
 .about .our-story {
     padding: 40px;
-    background-color: #f5f6f7;
+    background-color: #eaf5ff;
 }
 
 @media (min-width: 991px) {
@@ -1537,7 +1682,7 @@ section {
 .project-details .portfolio-description .testimonial-item {
     padding: 30px 30px 0 30px;
     position: relative;
-    background: #f5f6f7;
+    background: #eaf5ff;
     height: 100%;
     margin-bottom: 50px;
 }
