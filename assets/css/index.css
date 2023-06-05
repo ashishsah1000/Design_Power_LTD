@@ -689,11 +689,18 @@ section {
 
 .flowChart {
   display: flex;
+  padding: 0 40px;
   flex-direction: row;
   width: fit-content;
   margin: 80px auto;
   /* margin: auto; */
 }
+.flowChartCont {
+  max-width: 100vw;
+
+  overflow-x: scroll;
+}
+
 .flowbox {
   /* display: flex; */
   /* justify-content: center;
@@ -808,14 +815,14 @@ img {
 
 @media (max-width: 450px) {
   .box {
-    height: 240px;
+    height: 360px;
   }
 }
 
 @media (max-width: 950px) and (min-width: 450px) {
   .box {
     text-align: center;
-    height: 200px;
+    height: 300px;
   }
 }
 
@@ -2135,13 +2142,14 @@ h2 {
 
 @media (max-width: 768px) {
   .hero .info h2 {
-    font-size: 36px;
+    font-size: 28px;
+    padding: 0;
   }
 }
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .hero .info .btn-action {
