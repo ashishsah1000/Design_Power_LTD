@@ -697,7 +697,7 @@ section {
 }
 .flowChartCont {
   max-width: 100vw;
-
+  overflow-y: hidden;
   overflow-x: scroll;
 }
 
@@ -812,7 +812,13 @@ h1:last-of-type {
 img {
   float: right;
 }
-
+.flowChartCont {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.flowChartCont::-webkit-scrollbar {
+  display: none;
+}
 @media (max-width: 450px) {
   .box {
     height: 360px;
