@@ -676,6 +676,10 @@ section {
   }
 }
 
+.heroPara {
+  font-size: 14px;
+}
+
 .ourProcess {
   margin-top: 40px;
 }
